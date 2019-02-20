@@ -1,9 +1,13 @@
-/** navbar.js By Beginner Emain:zheng_jinfan@126.com HomePage:http://www.zhengjinfan.cn */
+/** 
+ * navbar.js 
+ * By Beginner E-mail:zheng_jinfan@126.com HomePage:http://www.zhengjinfan.cn 
+ * By Skiychan E-mail: dev@skiy.net HomePage: https://gitee.com/skiy/FlyAdmin
+*/
 layui.define(['element', 'common'], function (exports) {
     "use strict";
     var $ = layui.jquery,
         layer = parent.layer === undefined ? layui.layer : parent.layer,
-        element = layui.element(),
+        element = layui.element,
         common = layui.common,
         cacheName = 'tb_navbar';
 

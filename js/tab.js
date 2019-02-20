@@ -1,10 +1,14 @@
-/** tab.js By Beginner Emain:zheng_jinfan@126.com HomePage:http://www.zhengjinfan.cn */
+/** 
+ * tab.js 
+ * By Beginner E-mail:zheng_jinfan@126.com HomePage:http://www.zhengjinfan.cn 
+ * By Skiychan E-mail: dev@skiy.net HomePage: https://gitee.com/skiy/FlyAdmin
+*/
 layui.define(['element', 'common'], function (exports) {
     "use strict";
 
     var mod_name = 'tab',
         $ = layui.jquery,
-        element = layui.element(),
+        element = layui.element,
         commo = layui.common,
         globalTabIdIndex = 0,
         layer = layui.layer,

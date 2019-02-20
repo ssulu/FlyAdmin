@@ -30,6 +30,7 @@
 .header-index{background-color: #080018; border: none;}
 
 .layui-layout-admin .header-demo{border-bottom-color: #1AA094; background-color: #fff;}
+
 .header-demo .logo{left: 40px;}
 .header-demo .layui-nav{top: 0;}
 .header-demo .layui-nav .layui-nav-item{margin: 0 10px; line-height: 65px;}
@@ -431,3 +432,13 @@ body .site-demo-nav .layui-nav-item{line-height: 40px}
   .admin-side-toggle ,.admin-header-item{display: none;}
   .admin-header-item-mobile{ display: block; }
 }
+
+/** 
+ * By Skiychan E-mail: dev@skiy.net HomePage: https://gitee.com/skiy/FlyAdmin
+*/
+
+.logo span {
+  color: #fff;
+}
+
+.layui-layout-admin .layui-header{border-bottom-color: #1aa094;background-color: #393D49;}

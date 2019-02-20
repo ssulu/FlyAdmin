@@ -1,4 +1,8 @@
-/** index.js By Beginner Emain:zheng_jinfan@126.com HomePage:http://www.zhengjinfan.cn */
+/** 
+ * index.js 
+ * By Beginner E-mail:zheng_jinfan@126.com HomePage:http://www.zhengjinfan.cn 
+ * By Skiychan E-mail: dev@skiy.net HomePage: https://gitee.com/skiy/FlyAdmin
+*/
 
 var tab;
 
@@ -6,7 +10,7 @@ layui.config({
     base: 'js/',
     version: new Date().getTime()
 }).use(['element', 'layer', 'navbar', 'tab'], function () {
-    var element = layui.element(),
+    var element = layui.element,
         $ = layui.jquery,
         layer = layui.layer,
         navbar = layui.navbar();
@@ -200,8 +204,8 @@ function lock($, layer) {
             layero.find('button#unlock').on('click', function () {
                 var $lockBox = $('div#lock-box');
 
-                var userName = $lockBox.find('input[name=username]').val();
-                var pwd = $lockBox.find('input[name=password]').val();
+                var userName = $('#lockUserName').text();
+                var pwd = $('#lockPwd').val();
                 if (pwd === '输入密码解锁..' || pwd.length === 0) {
                     layer.msg('请输入密码..', {
                         icon: 2,
@@ -217,7 +221,7 @@ function lock($, layer) {
 			 * @param {String} 密码
 			 */
             var unlock = function (un, pwd) {
-                console.log(un, pwd);
+                console.log('<' + un + '>', pwd);
                 //这里可以使用ajax方法解锁
                 $.post('/Account/UnLock', { userName: un, password: pwd }, function (res) {
                     //验证成功
