@@ -67,13 +67,13 @@ var navs = [{
 		"icon": "fa-qq",
 		"href": "http://www.qq.com/"
 	}, {
-		"title": "Fly社区",
-		"icon": "&#xe609;",
-		"href": "http://fly.layui.com/"
-	}, {
 		"title": "新浪微博",
 		"icon": "fa-weibo",
 		"href": "http://weibo.com/"
+	}, {
+		"title": "琳琅技术论坛",
+		"icon": "&#xe609;",
+		"href": "https://bbs.jadehive.com/"
 	}]
 }, {
 	"title": "这是一级导航",

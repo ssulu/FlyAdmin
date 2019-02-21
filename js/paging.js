@@ -10,6 +10,7 @@ layui.define(['layer', 'laypage', 'laytpl'], function (exports) {
     "use strict";
     var $ = layui.jquery,
         layer = parent.layui.layer === undefined ? layui.layer : parent.layui.layer,
+        laypage = layui.laypage,
         laytpl = layui.laytpl;
 
     var Paging = function () {
@@ -156,7 +157,7 @@ layui.define(['layer', 'laypage', 'laytpl'], function (exports) {
                             }
                         };
                         $.extend(defaults, _pageConfig); //参数合并
-                        layui.laypage(defaults); //调用laypage组件渲染分页
+                        laypage.render(defaults); //调用laypage组件渲染分页
                     }
                     if (_config.success) {
                         _config.success(); //渲染成功
