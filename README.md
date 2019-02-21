@@ -5,3 +5,5 @@
 
 ### 
 ------
+- **Demo 地址：**[http://skiy.gitee.io/flyadmin/](http://skiy.gitee.io/flyadmin/)
+- **项目地址：**[https://github.com/skiy/flyadmin](https://github.com/skiy/flyadmin) / [https://gitee.com/skiy/FlyAdmin](https://gitee.com/skiy/FlyAdmin)
